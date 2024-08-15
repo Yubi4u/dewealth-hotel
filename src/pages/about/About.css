@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-container{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url('../../../public/images/de\ wealth\ 4.jpg');
+    padding: 20px;
+}
+.head-cont{
+    text-align: center;
+    margin-top: 25px;
+}
+.line {
+    width: 200px;
+    height: 1px;
+    background-color: red;
+    margin: 3px auto;
+}
+.line.short {
+    width: 250px;
+}
+
+.line.long {
+    width: 60px;
+}
+
+@media (max-width: 768px) {
+    .line {
+        width: 80px;
+    }
+    .line.short {
+        width: 40px;
+    }
+
+    .line.long {
+        width: 160px;
+    }
+}
+.paragraph-cont{
+    box-shadow:0 5px 8px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 15px;
+}
+.paragraph-cont p{
+    font-size: medium;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: start;
+}
+.body-container{
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: start;
+}
+footer{
+    background-color: black;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+.flex1 a{
+    display: block;
+    font-size: medium;
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+}
+.flex2 img{
+    position: relative;
+    left: 120px;
+}
+.flex2 p{
+    font-size: medium;
+}
+.address-cont{
+    position: relative;
+    top: 25px;
+    color: white;
+}
+.flex3 p{
+    font-size: medium;
+}
+.flex3{
+    color: white;
+}
+.flex1 a:hover{
+    color: red;
+}
